@@ -1,10 +1,10 @@
 # Script which searches the directory files [-d] for the string [-s] or regex [-r] and replaces it with the string -n.
 
 ## By default:
-### -d == "./"
-### -s == ""
-### -n == ""
-### -r does not exist.
+### [-d] == "./"
+### [-s] == ""
+### [-n] == ""
+### [-r] does not exist.
 
 ### Switch to executable mode:
 ```bash
