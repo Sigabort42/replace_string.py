@@ -1,6 +1,7 @@
 # Script which searches the directory files for the string -s or regex -r and replaces it with the string -n.
 
 ## By default:
+### -d == "./"
 ### -s == ""
 ### -n == ""
 ### -r does not exist.
@@ -15,9 +16,9 @@ chmod +x replace_string.py
 ```
 ### With string:
 ```bash
-./replace_string.py -s <Old string> -n <New string>
+./replace_string.py -d <Directory> -s <Old string> -n <New string>
 ```
 ### With Regex:
 ```bash
-./replace_string.py -r <Regex> -n <New string>
+./replace_string.py -d <Directory> -r <Regex> -n <New string>
 ```
