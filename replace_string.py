@@ -8,25 +8,25 @@ import argparse
 
 PARSER = argparse.ArgumentParser(
     prog="replace_string.py",
-    description="Cherche dans chaque fichier de l'arborescence une string et la remplace",
-    epilog="Cherche dans chaque fichier de l'arborescence une string et la remplace"
+    description="Look in each file of the tree for a string and replace it"
+    epilog="Look in each file of the tree for a string and replace it"
 )
 PARSER.add_argument(
     "-d",
     default="./",
-    help="path of directory",
+    help="Path of directory",
     metavar=""
 )
 PARSER.add_argument(
     "-s",
     default="",
-    help="string source",
+    help="String source",
     metavar=""
 )
 PARSER.add_argument(
     "-n",
     default="",
-    help="new string",
+    help="New string",
     metavar=""
 )
 PARSER.add_argument(
