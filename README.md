@@ -1,4 +1,4 @@
-# Script which searches the directory files for the string -s or regex -r and replaces it with the string -n.
+# Script which searches the directory files [-d] for the string [-s] or regex [-r] and replaces it with the string -n.
 
 ## By default:
 ### -d == "./"
