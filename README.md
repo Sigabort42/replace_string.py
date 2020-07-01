@@ -5,7 +5,7 @@
 ### -n == ""
 ### -r does not exist.
 
-### Switch to executable mode
+### Switch to executable mode:
 ```bash
 chmod +x replace_string.py
 ```
